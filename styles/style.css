@@ -1,0 +1,387 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* Login page styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login_container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 0.6s ease;
+}
+
+.login_container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 0 12px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #66a6ff;
+  box-shadow: 0 0 0 3px rgba(102, 166, 255, 0.3);
+  outline: none;
+}
+
+button[type="submit"] {
+  background: #66a6ff;
+  color: #fff;
+  border: none;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: #558eea;
+}
+
+.login_description {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Animasi muncul */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Birtday page styles */
+.song {
+  visibility: hidden;
+}
+
+.container {
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  visibility: hidden;
+  width: 100vw;
+}
+
+.container > div {
+  left: 0;
+  right: 0;
+  top: 20vh;
+  position: absolute;
+}
+
+.one {
+  font-size: 4.5rem;
+}
+
+.two {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.three {
+  font-size: 3rem;
+}
+
+.four .text-box {
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box span {
+  visibility: hidden;
+}
+
+.text-box .fake-btn {
+  background-color: rgb(237, 21, 190);
+  border-radius: 5px;
+  bottom: -50px;
+  right: 5px;
+  position: absolute;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.five p {
+  font-size: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.idea-3 strong {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 3px 5px;
+}
+
+.five .idea-5 {
+  font-size: 4rem;
+}
+
+.idea-5 span,
+.idea-6 span,
+.wish-hbd span {
+  display: inline-block;
+}
+
+.idea-6 span {
+  font-size: 15rem;
+}
+
+.six {
+  position: relative;
+  top: 10vh;
+  z-index: 1;
+}
+
+.six img {
+  display: inline-block;
+  height: 350px;
+  max-width: 100%;
+  border-radius: 14px;
+}
+
+.six .hat {
+  position: absolute;
+  left: 41.5%;
+  top: -35%;
+  width: 60px;
+  rotate: 14deg;
+}
+
+.ballons img {
+  display: inline-block;
+  position: absolute;
+}
+
+.ballons img:nth-child(even) {
+  left: -10%;
+}
+
+.ballons img:nth-child(odd) {
+  right: -10%;
+}
+
+.ballons img:nth-child(3n + 0) {
+  left: 30%;
+}
+
+.seven .eight {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.eight svg {
+  left: 0;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 25px;
+  z-index: -1;
+}
+
+.eight svg:nth-child(1) {
+  fill: #bd6ecf;
+  left: 5vw;
+  top: 7vh;
+}
+
+.eight svg:nth-child(2) {
+  fill: #7dd175;
+  left: 35vw;
+  top: 23vh;
+}
+
+.eight svg:nth-child(3) {
+  fill: #349d8b;
+  left: 23vw;
+  top: 33vh;
+}
+
+.eight svg:nth-child(4) {
+  fill: #347a9d;
+  left: 57vw;
+  top: 43vh;
+}
+
+.eight svg:nth-child(5) {
+  fill: #c66053;
+  left: 7vw;
+  top: 68vh;
+}
+
+.eight svg:nth-child(6) {
+  fill: #bfaa40;
+  left: 77vw;
+  top: 42vh;
+}
+
+.eight svg:nth-child(7) {
+  fill: #e3bae8;
+  left: 83vw;
+  top: 68vh;
+}
+
+.eight svg:nth-child(8) {
+  fill: #8762cb;
+  left: 37vw;
+  top: 86vh;
+}
+
+.eight svg:nth-child(9) {
+  fill: #9a90da;
+  left: 87vw;
+  top: 94vh;
+}
+
+.wish-hbd {
+  font-size: 3em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.wish h5 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 10px 0 0;
+}
+
+.nine p {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+#replay {
+  cursor: pointer;
+  z-index: 3;
+}
+
+/* Media Queries */
+@media screen and (max-height: 1000px) {
+  .six .hat {
+    left: 40%;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .six .hat {
+    left: 37%;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .six .hat {
+    left: 32%;
+  }
+}
+
+@media screen and (max-height: 850px) and (max-width: 450px) {
+  .six .hat {
+    left: 32%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .login_form{
+    width: 350px;
+    height: 250px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .four .text-box {
+    width: 90%;
+  }
+
+  .text-box .fake-btn {
+    bottom: -50px;
+    right: 5px;
+  }
+
+  .idea-5 span {
+    display: block;
+  }
+
+  .idea-6 span {
+    font-size: 10rem;
+  }
+
+  .six .hat {
+    /* top: -20px; */
+    width: 50px;
+  }
+
+  .wish-hbd {
+    font-size: 2.2em;
+  }
+
+  .wish h5 {
+    font-size: .8rem;
+  }
+
+  .nine p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+}
